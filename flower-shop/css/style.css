@@ -1,0 +1,382 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* hero section***************** */
+
+header{
+    background-color:#e5545918 ;
+    height:100vh;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.banner{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.banner .text{
+    padding-right: 111px;
+}
+.banner .text h1{
+    font-size: 67px;
+    font-weight: 900;
+}
+
+.banner .text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:32px;
+    margin-bottom:32px;
+    
+}
+
+.banner .text button{
+    padding:18px 38px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+
+}
+.banner .text button a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner img{
+    margin-top:100px;
+    padding-left:30px;
+    height:650px;
+    width: 500px;
+    object-fit:cover;
+}
+
+/* ****************featured section */
+.featured{
+    padding-top:164px;
+    padding-bottom: 128px;
+    max-width: 80%;
+    margin: auto;
+}
+ .section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .section-title h2{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+ }
+ .section-title p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+max-width: 50%;
+margin-top: 24px;
+}
+
+.featured  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top:48px;
+}
+
+.featured .wrapper .box{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-left: 15px;
+    text-align: center;
+
+}
+.featured .wrapper .box:nth-child(2){
+background: rgba(5, 151, 160, 0.15);
+
+}
+
+.featured .wrapper .box:nth-child(3){
+background: rgba(71, 125, 17, 0.15);
+
+}
+
+.item img{
+    width: 310px;
+    height: 428px;
+    margin-top: 111px;
+}
+
+.item1 img{
+    width: 370px;
+    height: 370px;
+    margin-top: 100px;
+}
+
+.item2 img {
+    width: 314px;
+    height: 471px;
+    margin-top: 70px;
+
+}
+
+.caption a{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+.item1 .caption{
+    margin-top:100px;
+}
+.item .caption{
+    margin-top:30px;
+}
+.item2 .caption{
+    margin-top:30px;
+}
+
+/* service section */
+.service{
+    max-width:80%;
+    margin: auto;
+}
+
+.service .wrapper{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:90px;
+    margin: 100PX 0;
+}
+.service .wrapper .box .item, .item1, .item2{
+    text-align: center;
+    
+}
+.service .wrapper img{
+    width: 88px;
+    height: 88px;
+}
+.service .wrapper .item2 img{
+    margin-top:95px;
+}
+
+/* offer part */
+.offer{
+    background-color:#e5545918 ;
+    
+}
+
+.offer .wrapper{
+
+    max-width: 70%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.offer .banner{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.offer .banner .text{
+    text-align: center;
+    margin-top:20px;
+}
+.offer .banner h2{
+color: #272727;
+font-size: 30px;
+font-weight: 800;
+}
+
+.offer .banner p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.offer .banner img{
+    height: 420px;
+    width: 420px;
+    object-fit: contain;
+}
+.offer .banner button{
+    padding: 16px 32px;
+}
+.offer .banner span{
+    color: #E55473;
+}
+/* section reveiw */
+
+.reveiw{
+    max-width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    margin-bottom:120px;
+}
+.reveiw-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 50px;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 0px 0px  300px 300px;
+    margin-top:30px;
+}
+.reveiw-row p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.reveiw-row img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid  #E55473;
+    object-fit: cover;
+}
+
+.reveiw-row .col:first-child{
+    translate:0 122px;
+}
+
+.reveiw-row .col:nth-child(2){
+    translate:10px 50px;
+}
+.reveiw-row .col:nth-child(3){
+    translate:0 200px;
+}
+.reveiw-row .col:last-child{
+    translate:0 100px;
+}
+/* instagram */
+
+.instagram{
+    padding: 100px 0;
+    max-width: 80%;
+    margin: auto;
+}
+
+.instagram .insta-row{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+.instagram .insta-row .col{
+    margin-left: 15px;
+}
+.instagram .insta-row .col:first-child{
+    margin-left:0;
+}
+
+.instagram .insta-row img{
+    width: 273px;
+    height: 310px;
+}
+
+
+/* deals section */
+.get-deals {
+    max-width: 80%;
+    margin: auto;
+ 
+}
+
+.get-deals  .wrapper{
+    background-image: url(img/Rectangle\ 9.png);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.get-deals  .wrapper h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.get-deals  .wrapper p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.get-deals  .wrapper input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    padding: 22px;
+    border: none;
+    outline: none;
+}
+
+.get-deals  .wrapper button{
+    padding:24px 45px;
+    border:none;
+    outline:none;
+    border-radius: 8px;
+    background-color: #E55473;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* footer section */
+footer{
+    background-color:#111010;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+footer h2{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer h2 span{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer  p{
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 30%;
+    margin:20px auto;
+    font-size: 16px;
+}
+footer .copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+}
